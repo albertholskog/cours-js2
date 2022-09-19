@@ -1,0 +1,33 @@
+.navbar {
+  background-color: getColour(primary) !important;
+  &-brand {
+    color: getColour(secondary) !important;
+    font-size: 2rem !important;
+  }
+  &-toggler-icon {
+    border: 2px solid getColour(secondary);
+    border-radius: 10px;
+  }
+  a {
+    color: getColour(secondary);
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .btn {
+    color: getColour(secondary);
+    border-color: getColour(secondary);
+  }
+}
+
+.active-border {
+  border: 1px solid getColour(secondary);
+  border-radius: 10px;
+}
+
+footer {
+  background-color: getColour(primary);
+  h2 {
+    color: getColour(secondary);
+    font-size: 2rem;
+  }
+}

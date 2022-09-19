@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=h, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <title>profile page</title>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/home.html">Hopla</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link mx-lg-5"
+                  aria-current="page"
+                  href="/home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active-border" href="/profile.html"
+                  >Profil</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="container mt-4">
+      <div class="row align-items-center">
+        <div class="col d-flex justify-content-end">
+          <img class="rounded" src="/img/img crop.jpg" alt="" />
+        </div>
+        <div class="col d-flexflex-column">
+          <div class="">
+            <p class="text-center">Name:<span>Albert Plant</span></p>
+          </div>
+          <div>
+            <p class="text-md-center">Country:<span>Norway</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <h2 class="col d-flex justify-content-center">Followers</h2>
+        <div class="row">
+          <div class="col">
+            <p class="d-flex justify-content-center">Rasmus Jord</p>
+          </div>
+          <div class="col">
+            <p class="d-flex justify-content-center">Petter Pettersen</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="container mt-5 mb-5">
+      <div class="container w-75">
+        <div class="mx-auto form row">
+          <input type="text" class="form-control pb-5" />
+          <div class="d-flex justify-content-end gap-2 mt-2">
+            <button class="btn btn-primary">Load img</button>
+            <button class="btn btn-primary">Upload</button>
+          </div>
+        </div>
+      </div>
+      <section class="container-fluid">
+        <div class="mt-5">
+          <div class="col-6 mx-auto">
+            <h2>Albert Plant</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              minima, mollitia, eum quisquam sunt nesciunt autem natus saepe
+              ipsum obcaecati veritatis ad nisi ut deserunt sit ratione rem
+              sapiente. Placeat!
+            </p>
+            <div
+              class="row row-cols-2 d-flex justify-content-center img__container"
+            >
+              <img
+                class="img-fluid col"
+                src="/img/nagy-arnold-X_IvVDuHvDQ-unsplash.jpg"
+                alt=""
+              />
+              <img
+                class="img-fluid col"
+                src="/img/annie-spratt-hX_hf2lPpUU-unsplash.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-6 mx-auto">
+            <h2>Albert Plant</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              minima, mollitia, eum quisquam sunt nesciunt autem natus saepe
+              ipsum obcaecati veritatis ad nisi ut deserunt sit ratione rem
+              sapiente. Placeat!
+            </p>
+            <div
+              class="row row-cols-2 d-flex justify-content-center img__container"
+            >
+              <img
+                class="img-fluid col"
+                src="/img/nagy-arnold-X_IvVDuHvDQ-unsplash.jpg"
+                alt=""
+              />
+              <img
+                class="img-fluid col"
+                src="/img/annie-spratt-hX_hf2lPpUU-unsplash.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer mt-auto">
+      <div class="d-flex justify-content-around align-items-center py-3">
+        <h2 class="">Hopla</h2>
+      </div>
+    </footer>
+  </body>
+</html>
